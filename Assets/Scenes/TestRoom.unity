@@ -1302,7 +1302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1080178834
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2153,6 +2153,18 @@ PrefabInstance:
     - target: {fileID: 2910748587668435850, guid: 19ff2858e516fb84e8e02cf9207018e3, type: 3}
       propertyPath: m_Name
       value: Temp_Wall_Collision
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049943211222072497, guid: 19ff2858e516fb84e8e02cf9207018e3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049943211222072497, guid: 19ff2858e516fb84e8e02cf9207018e3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049943211222072497, guid: 19ff2858e516fb84e8e02cf9207018e3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.46
       objectReference: {fileID: 0}
     - target: {fileID: 4049943211873726098, guid: 19ff2858e516fb84e8e02cf9207018e3, type: 3}
       propertyPath: m_LocalPosition.x
