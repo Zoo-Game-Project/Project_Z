@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Joystick.cs" />
+    <Compile Include="Assets\Scripts\LayerSetting.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
