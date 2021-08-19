@@ -333,6 +333,8 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.SpriteShape.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.SpriteShape.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Tilemap.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Tilemap.Extras.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.2D.Tilemap.Extras.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InternalAPIEditorBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InternalAPIEngineBridge.001.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Mathematics.Editor.ref.dll"
