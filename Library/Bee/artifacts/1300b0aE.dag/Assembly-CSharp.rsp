@@ -371,6 +371,7 @@
 "Assets/Scripts/ButtonTouch.cs"
 "Assets/Scripts/Controller/Player_Controller.cs"
 "Assets/Scripts/LayerSetting.cs"
+"Assets/Scripts/UI/Map_Change.cs"
 "Assets/Scripts/UI/Menu_Manager.cs"
 "Assets/Scripts/WallTile.cs"
 -langversion:8.0
