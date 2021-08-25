@@ -4,19 +4,19 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class WallTile : Tile
+public class DesignTile : Tile
 {
 
 #if UNITY_EDITOR
-    [MenuItem("Assets/Create/Tiles/WallTile")]
+    [MenuItem("Assets/Create/Tiles/DesignTile")]
     public static void CreateWaterTile()
     {
-        string path = EditorUtility.SaveFilePanelInProject("Save WallTile", "New WallTile", "asset", "Save WallTile", "Assets");
+        string path = EditorUtility.SaveFilePanelInProject("Save DesignTile", "New DesignTile", "asset", "Save DesignTile", "Assets");
         if (path == "")
         {
             return;
         }
-        AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<WallTile>(), path);
+        AssetDatabase.CreateAsset(ScriptableObject.CreateInstance<DesignTile>(), path);
     }
 
 #endif
