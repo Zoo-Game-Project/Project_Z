@@ -9,7 +9,7 @@ public class Map_Change : MonoBehaviour
     public Canvas Canvas;
     public GameObject stage_1;
     public GameObject stage_2;
-    public bool IsOpen;
+    public static bool IsOpen;
 
     public void Change_1()
     {

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Goal : MonoBehaviour
 {
-    public GameObject StageClearUI;
+    [SerializeField] StageManager theSM;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
-            StageClearUI.SetActive(true);
+            theSM = GameObject.Find("StageClearUI").GetComponent<StageManager>();
+            theSM.ShowClearUI();
         }  
     }
 }
