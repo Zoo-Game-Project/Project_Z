@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player: {fileID: 1048256946}
   fixJoy: {fileID: 1146299635}
-  PlayerSpeed: 120
+  PlayerSpeed: 3
 --- !u!4 &172177389
 Transform:
   m_ObjectHideFlags: 0

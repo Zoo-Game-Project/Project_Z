@@ -16,15 +16,34 @@ public class Player_Controller : MonoBehaviour
 
     public void Update()
     {
-        if (fixJoy.Vertical != 0)
-        {
-            Vector2 direction = Vector2.up * fixJoy.Vertical + Vector2.right * fixJoy.Horizontal;
-            rgd2d.AddForce(direction * PlayerSpeed * Time.deltaTime);
-        }
+        Vector2 direction = (Vector2.up * fixJoy.Vertical + Vector2.right * fixJoy.Horizontal) * PlayerSpeed * Time.deltaTime;
+        Player.transform.position += new Vector3(direction.x, direction.y);
 
-        else
-        {
-            rgd2d.velocity = Vector2.zero;
-        }
+        //if (fixJoy.Vertical != 0)
+        //{
+        //    bool isup = fixJoy.Vertical > 0;
+        //    if (isup)
+        //    {
+        //        Player.transform.Translate(0, PlayerSpeed * Time.deltaTime, 0);
+        //    }
+        //    else
+        //    {
+        //        Player.transform.Translate(0, -PlayerSpeed * Time.deltaTime, 0);
+        //    }
+        //}
+
+        //if (fixJoy.Horizontal != 0)
+        //{
+        //    bool isright = fixJoy.Horizontal > 0;
+        //    if (isright)
+        //    {
+        //        Player.transform.Translate(PlayerSpeed * Time.deltaTime, 0, 0);
+        //    }
+        //    else
+        //    {
+        //        Player.transform.Translate(-PlayerSpeed * Time.deltaTime, 0, 0);
+        //    }
+        //}
+
     }
 }
