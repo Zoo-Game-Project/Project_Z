@@ -9,6 +9,8 @@ public class Player_Controller : MonoBehaviour
     public float PlayerSpeed = 2f;
     Rigidbody2D rgd2d;
 
+    public static bool IsMove;
+
     private void Start()
     {
         rgd2d = Player.GetComponent<Rigidbody2D>();
@@ -16,8 +18,16 @@ public class Player_Controller : MonoBehaviour
 
     public void Update()
     {
-        Vector2 direction = (Vector2.up * fixJoy.Vertical + Vector2.right * fixJoy.Horizontal) * PlayerSpeed * Time.deltaTime;
-        Player.transform.position += new Vector3(direction.x, direction.y);
+        if (!IsMove)
+        {
+            Vector2 direction = (Vector2.up * fixJoy.Vertical + Vector2.right * fixJoy.Horizontal) * PlayerSpeed * Time.deltaTime;
+            Player.transform.position += new Vector3(direction.x, direction.y);
+        }
+
+        else
+        {
+
+        }
 
         //if (fixJoy.Vertical != 0)
         //{

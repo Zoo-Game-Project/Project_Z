@@ -376,6 +376,7 @@
 "Assets/Scripts/StageManager.cs"
 "Assets/Scripts/UI/Map_Change.cs"
 "Assets/Scripts/UI/Menu_Manager.cs"
+"Assets/Scripts/WallCheck.cs"
 "Assets/Scripts/WallTile.cs"
 -langversion:8.0
 

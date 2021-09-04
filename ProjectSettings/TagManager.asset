@@ -7,6 +7,7 @@ TagManager:
   - Item
   - Door
   - Goal
+  - Wall
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Player
   - Water
   - UI
-  - 
-  - 
+  - Wall
+  - Player_Check
   - 
   - 
   - 
