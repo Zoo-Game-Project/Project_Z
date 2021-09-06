@@ -8967,7 +8967,7 @@ GameObject:
   - component: {fileID: 222874619}
   m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9882,9 +9882,9 @@ GameObject:
   - component: {fileID: 248491396}
   - component: {fileID: 248491395}
   - component: {fileID: 248491394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17987,6 +17987,7 @@ MonoBehaviour:
   stage_1: {fileID: 2014181121}
   stage_2: {fileID: 596491309}
   Player: {fileID: 1048256946}
+  Player_Check: {fileID: 1150101092}
 --- !u!1 &329033732
 GameObject:
   m_ObjectHideFlags: 0
@@ -18001,9 +18002,9 @@ GameObject:
   - component: {fileID: 329033736}
   - component: {fileID: 329033735}
   - component: {fileID: 329033734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28519,9 +28520,9 @@ GameObject:
   - component: {fileID: 782488762}
   - component: {fileID: 782488761}
   - component: {fileID: 782488760}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42127,8 +42128,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150101093}
-  - component: {fileID: 1150101095}
   - component: {fileID: 1150101094}
+  - component: {fileID: 1150101095}
   m_Layer: 7
   m_Name: Player_Check
   m_TagString: Untagged
@@ -42176,7 +42177,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003721714, y: -0.465199}
+  m_Offset: {x: -0.011136532, y: -0.43891364}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -42187,7 +42188,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17380619, y: 0.38221586}
+  m_Size: {x: 0.2853384, y: 0.62165594}
   m_EdgeRadius: 0
 --- !u!1 &1158601723
 GameObject:
@@ -42203,9 +42204,9 @@ GameObject:
   - component: {fileID: 1158601727}
   - component: {fileID: 1158601726}
   - component: {fileID: 1158601725}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43584,9 +43585,9 @@ GameObject:
   - component: {fileID: 1274615343}
   - component: {fileID: 1274615342}
   - component: {fileID: 1274615341}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75260,9 +75261,9 @@ GameObject:
   - component: {fileID: 1718224567}
   - component: {fileID: 1718224566}
   - component: {fileID: 1718224565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85160,9 +85161,9 @@ GameObject:
   - component: {fileID: 2033477216}
   - component: {fileID: 2033477215}
   - component: {fileID: 2033477214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86067,9 +86068,9 @@ GameObject:
   - component: {fileID: 2039899173}
   - component: {fileID: 2039899172}
   - component: {fileID: 2039899171}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94255,9 +94256,9 @@ GameObject:
   - component: {fileID: 2141453009}
   - component: {fileID: 2141453008}
   - component: {fileID: 2141453007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Basic
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96205,7 +96206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8386686881230154655, guid: efc7810b420b4c34ca81196aa1444d0f, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8386686881230154655, guid: efc7810b420b4c34ca81196aa1444d0f, type: 3}
       propertyPath: m_LocalPosition.x

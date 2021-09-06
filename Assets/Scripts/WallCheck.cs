@@ -5,6 +5,7 @@ using UnityEngine;
 public class WallCheck : MonoBehaviour
 {
     public GameObject Player;
+    public static bool IsWall;
 
     //private void OnCollisionEnter2D(Collision2D collision)
     //{
@@ -21,18 +22,23 @@ public class WallCheck : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //if (other.CompareTag("Wall"))
+        if (other.CompareTag("Wall"))
         {
             Debug.Log("캐릭터가 멈추었다.");
             Player_Controller.IsMove = true;
+            IsWall = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D other)
     {
+        if (other.CompareTag("Wall"))
+        {
             Debug.Log("캐릭터가 다시 움직인다.");
             Player_Controller.IsMove = false;
-            Player.GetComponent<CapsuleCollider2D>().enabled = true;
+            IsWall = false;
+            //Player.GetComponent<CapsuleCollider2D>().enabled = true;
+        }
     }
 
 }
